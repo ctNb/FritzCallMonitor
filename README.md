@@ -1,10 +1,12 @@
 # FritzCallMonitor
 
+A simple python script which sends alerting mails when a call with an untrusted phone number is established. 
+
 ## Installation
 
 - Download requirements
 ```
-pip install -r requirements.txt 
+pip3 install -r requirements.txt 
 ```
 
 - Enable CallMonitor Service on FritzBox by calling this number with a connected phone
