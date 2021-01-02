@@ -22,7 +22,7 @@ fritz:
   address: 192.168.178.1
   password: <password>
 
-trusted-number-regex: "^(\+49)" # the numbers are formatted in E164
+trusted-number-regex: '^(\+49)' # the numbers are formatted in E164
 phone-default-region: DE # is used to parse the phone numbers
 
 mail:
