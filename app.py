@@ -53,7 +53,6 @@ def process_events(config, monitor, event_queue, healthcheck_interval=10):
                     generate_mail(config, call)
                 # clear memory
                 del call_history[call["id"]]
-            print(call)
         except queue.Empty:
             # check health:
             if not monitor.is_alive:
