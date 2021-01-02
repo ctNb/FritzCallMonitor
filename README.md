@@ -1,6 +1,7 @@
 # FritzCallMonitor
 
-A simple python script which sends alerting mails when a call with an untrusted phone number is established. 
+A simple python script for the FritzBox which sends alerting mails when a call with an untrusted phone number is established. 
+The number is considered trustworthy if it is stored in the phone book or it matches the `trusted-number-regex` RegEx.
 
 ## Installation
 
